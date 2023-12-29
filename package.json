@@ -1,22 +1,23 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "testraycastextension",
-  "title": "testRaycastExtension",
-  "description": "",
-  "icon": "command-icon.png",
+  "name": "passwordly",
+  "title": "Open manager",
+  "description": "Simple password manager",
+  "icon": "key.svg",
   "author": "Iota02",
   "owner": "iota-group",
   "license": "MIT",
   "commands": [
     {
       "name": "index",
-      "title": "TestForm",
+      "title": "Passwordly",
       "description": "Template for submitting a form",
       "mode": "view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.63.0"
+    "@raycast/api": "^1.63.0",
+    "node": "^21.2.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.6",

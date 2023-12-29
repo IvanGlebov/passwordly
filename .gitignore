@@ -3,6 +3,9 @@
 # dependencies
 /node_modules
 
+# extensions
+.dependencygraph
+
 # Raycast specific files
 raycast-env.d.ts
 .raycast-swift-build
