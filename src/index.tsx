@@ -1,10 +1,12 @@
-import { ActionPanel, Action, useNavigation, List, Icon, showToast, Toast } from "@raycast/api";
+import { ActionPanel, Action, List, Icon, showToast, Toast } from "@raycast/api";
 import EmptyStateList from "./components/EmptyStateList";
 import { Service } from "./passwords/services/saveNewService";
-import { getPasswordsStore } from "./passwords";
-import { useEffect, useMemo, useState } from "react";
-import transformPairsToServices from "./utils/transformPairsToServices";
+import { useState } from "react";
+// import { getPasswordsStore } from "./passwords";
+// import { useEffect, useMemo, useState } from "react";
+// import transformPairsToServices from "./utils/transformPairsToServices";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const ActionsForItem: React.FC<Service> = (service) => {
   // const { push } = useNavigation();
   return (
@@ -42,6 +44,7 @@ export const ActionsForItem: React.FC<Service> = (service) => {
 };
 
 export default function Command() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [list, setList] = useState<Omit<Service, "password">[]>([]);
 
   // useEffect(() => {

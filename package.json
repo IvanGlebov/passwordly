@@ -1,9 +1,9 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "passwordly",
-  "title": "Open manager",
+  "title": "Open Manager",
   "description": "Simple password manager",
-  "icon": "key.svg",
+  "icon": "key_512.png",
   "author": "Iota02",
   "owner": "iota-group",
   "license": "MIT",
@@ -16,7 +16,7 @@
     },
     {
       "name": "cryptoSettings",
-      "title": "Configure crypto",
+      "title": "Configure Crypto",
       "description": "Open crypto configuration pane",
       "mode": "view"
     }
