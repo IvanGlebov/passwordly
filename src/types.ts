@@ -1,13 +1,13 @@
-export type TService = {
+export type Service = {
   name: string;
 };
 
 export interface IActionForItem {
-  service: TService;
+  service: Service;
 }
 
 export interface IPasswordForm {
-  service: TService;
+  service: Service;
 }
 
 export type TPasswordFormValues = {

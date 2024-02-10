@@ -10,13 +10,20 @@
   "commands": [
     {
       "name": "index",
-      "title": "Passwordly",
+      "title": "Passwords",
       "description": "Template for submitting a form",
+      "mode": "view"
+    },
+    {
+      "name": "cryptoSettings",
+      "title": "Configure crypto",
+      "description": "Open crypto configuration pane",
       "mode": "view"
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.63.0",
+    "@reduxjs/toolkit": "^2.1.0",
     "node": "^21.2.0"
   },
   "devDependencies": {
